@@ -1,0 +1,115 @@
+.box-container-left {
+    width: 70%;
+    background-color: #9900B3;
+}
+
+.box-container-rigth {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: hotpink;
+}
+
+.box {
+    height: 94%;
+}
+
+.name {
+    font-family: 'Carter One', cursive;
+    letter-spacing: 2px;
+    color: hotpink;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10%;
+    height: 15%;
+
+}
+.name span {
+    color: white;
+}
+
+.about {
+    font-family: 'Noto Sans', sans-serif;
+    height: 40%;
+    width: 70%;
+    color: white;
+}
+
+.about h1 {
+    font-size: 60px;
+    color: hotpink;
+}
+
+.about p {
+    font-size: 25px;
+}
+.about span {
+    color: white;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    position: relative;
+    height: 85%;
+    width: 100%;
+}
+
+.qualiter {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 17%;
+    height: 100px;
+    width: 50%;
+}
+
+.qualiter p {
+    font-size: 17px;
+    height: 100%;
+    width: 45%;
+}
+
+.my-image {
+    border: 2px solid white;
+    position: relative;
+    top: 18%;
+    right: 50%;
+    height: 250px;
+}
+
+.my-image img {
+    position: relative;
+    border: 2px solid white;
+    bottom: 14%;
+    right: 9%;
+    height: 100%;
+}
+
+.liste-lien {
+    margin-top: 20px;
+    height: 10%;
+    width: 99%;
+}
+
+.liste-lien li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.liste-lien li a {
+    text-decoration: underline 11px #b902d9;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    color: white;
+}
+
+.liste-lien li a:hover {
+    color: #b902d9;
+    text-decoration: underline 11px white;
+    transition: all ease-in-out 0.5s;
+}
