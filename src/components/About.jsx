@@ -13,7 +13,7 @@ export default function About() {
       </p>
       <div className="qualiter">
         <p>Amélioration progressive de l'interface utilisateurs et rapidité.</p>
-        <p>Un ans d'expérience dans la création de site / application web.</p>
+        <p>Un ans d'expérience dans la création de site/application web.</p>
       </div>
     </section>
   );

@@ -5,11 +5,11 @@ const name = "AlexCoding";
 export default function MyName() {
   return (
     <div className="name">
-      <h1>
+      <h2>
         <span>{"<"}</span>
         {name}
         <span>{" />"}</span>{" "}
-      </h1>
+      </h2>
     </div>
   );
 }

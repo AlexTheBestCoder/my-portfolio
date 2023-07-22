@@ -6,10 +6,12 @@
 
 
 /* Style global sur toute l'application */
+@import 'normalize.css';
+
+
 
 * {
-    margin: 0;
+    /* border: 1px solid black; */
     padding: 0;
-    box-sizing: border-box;
-    box-sizing: content-box;
+    margin: 0;
 }
